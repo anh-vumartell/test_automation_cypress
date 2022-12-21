@@ -47,7 +47,7 @@ describe("Verify features used by a bank manager", ()=>{
     })
   })
   //Test no.4: Verify that a bank manager can delete a customer 
-  it.only("Verify that a bank manager can delete a customer from list of customers", ()=>{
+  it("Verify that a bank manager can delete a customer from list of customers", ()=>{
     //Click btn "Customers"
     cy.get("button:contains(Customers)").click(); 
     // Search for the customer

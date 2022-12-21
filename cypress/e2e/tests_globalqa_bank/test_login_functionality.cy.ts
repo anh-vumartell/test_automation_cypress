@@ -1,3 +1,4 @@
+//<reference types="cypress" />
 //The test suite
 describe("Verify login functionality", () => {
   //Pre-condition
